@@ -28,7 +28,7 @@ class CurrencyConverter:
         else:
             return None
 
-api_key = '3b2360c9437e7469c094c333'
+api_key = ''
 converter = CurrencyConverter(api_key)
 
 base_currency = input("Введите код базовой валюты (например, USD): ")
